@@ -1,11 +1,13 @@
 @import "variables";
-@import "./components/app";
+@import "./components/home";
 
 body {
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $dark;
+  min-height: 100vh;
 }
 
 code {
